@@ -4,6 +4,8 @@ namespace RefVsValueTypes
 {
     class Program
     {
+        // More info about the structs vs classes here:
+        // https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/choosing-between-class-and-struct
         static void Main(string[] args)
         {
             PersonClass martin1 = new PersonClass("Martin", "Polansky", 38, Gender.Male);
