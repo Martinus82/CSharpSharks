@@ -25,5 +25,10 @@ namespace RefVsValueTypes
         public string LastName { get; }
         public int Age { get; private set; }
         public Gender Gender { get; }
+
+        public override string ToString()
+        {
+            return $"{FirstName} {LastName} {Age} {Gender}";
+        }
     }
 }
